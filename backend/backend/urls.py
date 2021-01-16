@@ -23,5 +23,6 @@ router.register(r'food', views.FoodView, 'food')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include(router.urls))
+    path('api/', include(router.urls)), 
+    path('accounts/', include('django.contrib.auth.urls')),
 ]

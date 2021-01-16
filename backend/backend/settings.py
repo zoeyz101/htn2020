@@ -84,8 +84,11 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'djongo',
+        'NAME': 'food',
+        'HOST': 'mongodb+srv://admin:samplepassword@cluster0.jjdsk.mongodb.net/food?retryWrites=true&w=majority',
+        'USER': 'admin',
+        'PASSWORD': 'samplepassword',
     }
 }
 
