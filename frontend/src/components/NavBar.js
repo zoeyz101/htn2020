@@ -33,7 +33,7 @@ const NavBar = (props) => {
             </NavItem>
           </Nav>
           <Button className="ml-2" color="primary" href="login">Log In</Button>
-          <Button color="secondary">Sign Up</Button>
+          <Button color="secondary" href="/signup">Sign Up</Button>
         </Collapse>
       </Navbar>
     </div>

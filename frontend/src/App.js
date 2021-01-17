@@ -9,6 +9,7 @@ import Home from './pages/Home';
 import FoodItems from './pages/FoodItems';
 import Recipes from './pages/Recipes';
 import Login from './pages/Login';
+import SignUp from './pages/SignUp';
 import NavBar from './components/NavBar';
 
 function App(){
@@ -29,9 +30,13 @@ function App(){
           <Route path="/recipes">
             <Recipes/>
           </Route>
-          
+
           <Route path="/login">
             <Login/>
+          </Route>
+
+          <Route path="/signup">
+            <SignUp/>
           </Route>
           
         </Switch>
