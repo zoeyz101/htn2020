@@ -15,8 +15,8 @@ function Home(){
             <img src={logo} alt="logo" />
         </Col>
         <Col>
-            <h1 className="text-uppercase">Insert Name Here</h1>
-            <h4>Insert Slogan</h4>  
+            <h1 className="text-uppercase">Nutribuddy</h1>
+            <h4>Making food shouldn't be so hard</h4>  
             <Button color="secondary" href="/signup">Sign Up</Button>
         </Col>
       </Row>
