@@ -17,7 +17,7 @@ function Home(){
         <Col>
             <h1 className="text-uppercase">Insert Name Here</h1>
             <h4>Insert Slogan</h4>  
-            <Button color="secondary">Sign Up</Button>
+            <Button color="secondary" href="/signup">Sign Up</Button>
         </Col>
       </Row>
       </Container>
