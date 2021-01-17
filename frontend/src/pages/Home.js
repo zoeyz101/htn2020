@@ -1,6 +1,6 @@
 import React from 'react';
 import './pages.css';
-import { Container, Row, Col } from 'reactstrap';
+import { Button, Container, Row, Col } from 'reactstrap';
 import logo from '../logo.svg';
 
 function Home(){
@@ -14,6 +14,7 @@ function Home(){
         <Col>
             <h1 className="text-uppercase">Insert Name Here</h1>
             <h4>Insert Slogan</h4>  
+            <Button color="secondary">Sign Up</Button>
         </Col>
       </Row>
       </Container>

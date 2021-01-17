@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './components.css';
 import {
   Button,
   Collapse,
@@ -10,6 +11,7 @@ import {
   NavLink,
   NavbarText
 } from 'reactstrap';
+import logo from '../logo.svg';
 
 const NavBar = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,7 +21,7 @@ const NavBar = (props) => {
   return (
     <div>
       <Navbar color="light" light expand="md">
-        <NavbarBrand href="/">Food App</NavbarBrand>
+        <NavbarBrand href="/"> <img class="resize-logo" src={{logo}}/>Food App</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
