@@ -16,7 +16,7 @@ function Login() {
                 <Label for="examplePassword" className="mr-sm-2">Password</Label>
                 <Input type="password" name="password" id="examplePassword" placeholder="Password" />
               </FormGroup>
-              <Button color="primary">Log In</Button>
+              <Button color="primary" href ="/fooditems">Log In</Button>
             </Form>
         </div>
         </div>

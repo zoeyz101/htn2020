@@ -20,7 +20,7 @@ function SignUp() {
                 <Label for="examplePassword" className="mr-sm-2">Password</Label>
                 <Input type="password" name="password" id="examplePassword" placeholder="Set a password." />
               </FormGroup>
-              <Button color="secondary">Sign Up</Button>
+              <Button color="secondary" href="/fooditems">Sign Up</Button>
             </Form>
         </div>
         </div>
