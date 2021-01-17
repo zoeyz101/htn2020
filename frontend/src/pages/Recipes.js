@@ -1,34 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Button } from 'reactstrap'
-import ProductCard from '../components/ProductCard'
-import { useAxiosGet } from '../hooks/HttpRequests'
 
 function Recipes() {
-  const url = `https://5f418acfd4b4790016fd7291.mockapi.io/api/vi/products?page=1&limit=10`
-
-  let products = useAxiosGet(url)
-  
-  let content = null
-
-    if(products.error){
-      content = <p>
-          There was an error. Please refresh or try again later.
-      </p>
-    }
-
-    if(products.data){
-      content = 
-          // map throught products.data because it is an array from the first page of products
-          // when looping through, need to identify key
-          products.data.map((product) => 
-              <div key={product.id}> 
-                <ProductCard 
-                    product={product}
-                />
-              </div>
-          )
-    } 
-
     return(
         <div className="col-md-6 col-sm-10 mx-auto p-0 my-5">
           <h1 className="font-bold text-2xl"> 
