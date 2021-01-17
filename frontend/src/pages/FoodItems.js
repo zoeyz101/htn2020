@@ -148,7 +148,18 @@ class FoodItems extends Component {
               </div>
               {this.renderTabList()}
               <ul className="list-group list-group-flush">
-                {this.renderItems()}
+                <li className="list-group-item">
+                  Broccoli
+                </li>
+                <li className="list-group-item">
+                  Cheese
+                </li>
+                <li className="list-group-item">
+                  Macaroni
+                </li>
+                <li className="list-group-item">
+                  Milk
+                </li>
               </ul>
             </div>
           </div>
