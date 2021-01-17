@@ -21,7 +21,7 @@ const NavBar = (props) => {
       <Navbar.Brand href="/">
         Nutribuddy
       </Navbar.Brand>
-      <Nav className="justify-content-end" activeKey="/home">
+      <Nav className="ml-auto" activeKey="/home">
         <Nav.Link href="/login">Login</Nav.Link>
         <Button variant="primary" href="/signup">Sign Up</Button>
       </Nav>
