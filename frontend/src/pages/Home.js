@@ -1,10 +1,13 @@
 import React from 'react';
 import './pages.css';
-import { Button, Container, Row, Col } from 'reactstrap';
+import { Button, Container, Row, Col, Nav } from 'reactstrap';
 import logo from '../logo.svg';
+import NavBar from '../components/HomeNavBar'
 
 function Home(){
     return (
+        <>
+        <NavBar/>
         <div class="container">
          <Container className="my-5 center">
         <Row xs="2">
@@ -19,6 +22,7 @@ function Home(){
       </Row>
       </Container>
       </div>
+      </>
     )
 }
 

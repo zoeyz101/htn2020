@@ -10,13 +10,11 @@ import FoodItems from './pages/FoodItems';
 import Recipes from './pages/Recipes';
 import Login from './pages/Login';
 import SignUp from './pages/SignUp';
-import NavBar from './components/NavBar';
 
 function App(){
   return(
     <div>
       <Router>
-      <NavBar/>
 
         <Switch>
           <Route exact path="/">
