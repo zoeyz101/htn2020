@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 // import Modal from "../components/Modal";
 import AddFood from "../components/AddFood";
+import NavBar from "../components/afterlogingNav"
 import axios from "axios";
 
 class FoodItems extends Component {
@@ -138,6 +139,8 @@ class FoodItems extends Component {
   };
   render() {
     return (
+      <>
+      <NavBar/>
       <main className="content">
         <h1 className="text-uppercase text-center my-4">My Food Items</h1>
         <div className="row">
@@ -172,6 +175,7 @@ class FoodItems extends Component {
           />
         ) : null} */}
       </main>
+      </>
     );
   }
 }

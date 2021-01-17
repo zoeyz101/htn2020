@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from 'react'
+import NavBar from "../components/afterlogingNav"
 import { Button } from 'reactstrap'
 
 function Recipes() {
     return(
+        <>
+        <NavBar/>
         <div className="col-md-6 col-sm-10 mx-auto p-0 my-5">
           <h1 className="font-bold text-2xl"> 
             Recipes
@@ -61,6 +64,7 @@ function Recipes() {
         
           
         </div>
+        </>
     )
 }
 
