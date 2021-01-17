@@ -30,7 +30,8 @@ const NavBar = (props) => {
               <NavLink href="/recipes">Recipes</NavLink>
             </NavItem>
           </Nav>
-          <Button>Login</Button>
+          <Button className="ml-2" color="primary" href="login">Log In</Button>
+          <Button color="secondary">Sign Up</Button>
         </Collapse>
       </Navbar>
     </div>
