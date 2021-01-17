@@ -17,7 +17,9 @@ const NavBar = (props) => {
           width="30"
           height="50"
         />{' '}
-        Food App
+      </Navbar.Brand>
+      <Navbar.Brand href="/">
+        Nutribuddy
       </Navbar.Brand>
       <Nav className="justify-content-end" activeKey="/home">
         <Nav.Link href="/login">Login</Nav.Link>
